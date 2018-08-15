@@ -89,12 +89,29 @@
                 </a>
             </ul>
         </div>
+        <div class="right_main right">
+            <div class="right_tit">
+                <div class="break left">您当前的位置：<a href="">首页</a></div>
+                <div class="rTit_date right"></div>
+            </div>
+            <div class="index_main">
+                <div class="index_mTit">
+                    请选择您的操作
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/style.js"></script>
 <script>
     var aHeight = $(window).height()-105;
-    var aWidth = $(window).height()-105;
+    var aWidth = $(window).width()-290;
     $(".content").css("height",aHeight+"px");
+    $(".right_main").css("width",aWidth+"px");
+    $(".rTit_date").writeDate();
+    setInterval(function(){
+        $(".rTit_date").writeDate();
+    },1000);
 </script>
 </html>

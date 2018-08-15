@@ -27,3 +27,139 @@ input{
 .clearBoth{
     clear: both;
 }
+.header{
+    width: 100%;
+    height: 105px;
+    background: url(../images/header_bg.png) no-repeat;
+    background-size: 100%; 
+}
+.header_logo{
+    width: 517px;
+    height: 105px;
+    margin: 0 0 0 5%;
+}
+.header_info{
+    height: 25px;
+    margin: 40px 5% 40px 0;
+}
+.header_logout{
+    background: url(../images/bg_icon2.png) no-repeat;
+    padding: 0 0 0 35px;
+    margin: 0 0 0 30px;
+}
+.header_goHome{
+    background: url(../images/bg_icon1.png) no-repeat;
+    padding: 0 0 0 35px;
+    margin: 0 0 0 30px;
+}
+.header_logout a,.header_goHome a{
+    line-height: 25px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.header_user{
+    line-height: 25px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.content{
+    width: 100%;
+    min-width: 1000px;
+    min-height: 620px;
+    overflow: hidden;
+}
+.content::after{
+    content: '.';
+    clear: both;
+}
+.left_aside{
+    width: 230px;
+    height: 100%;
+    background: #333333;
+}
+.aside_list{
+    width: 230px;
+    height: 100%;
+}
+.aside_list li{
+    width: 170px;
+    height: 50px;
+    border-bottom: 1px solid #42424a;
+    padding: 0 0 0 60px;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 16px;
+}
+.aside_l1{
+    background: url(../images/bg_icon3.png) 14px 15px no-repeat
+}
+.aside_l2{
+    background: url(../images/bg_icon4.png) 14px 16px no-repeat
+}
+.aside_l3{
+    background: url(../images/bg_icon5.png) 12px 12px no-repeat
+}
+.aside_l4{
+    background: url(../images/bg_icon6.png) 17px 15px no-repeat
+}
+.aside_l5{
+    background: url(../images/bg_icon7.png) 16px 17px no-repeat
+}
+.aside_l6{
+    background: url(../images/bg_icon8.png) 15px 15px no-repeat
+}
+.aside_l7{
+    background: url(../images/bg_icon9.png) 15px 15px no-repeat
+}
+.aside_l8{
+    background: url(../images/bg_icon10.png) 15px 15px no-repeat
+}
+.aside_l9{
+    background: url(../images/bg_icon11.png) 16px 16px no-repeat
+}
+.aside_l10{
+    background: url(../images/bg_icon12.png) 14px 15px no-repeat
+}
+.aside_l11{
+    background: url(../images/bg_icon13.png) 16px 18px no-repeat
+}
+.aside_l12{
+    background: url(../images/bg_icon14.png) 16px 17px no-repeat
+}
+.right_main{
+    height: 100%;
+    padding: 0 30px;
+}
+.right_tit{
+    width: 100%;
+    height: 50px;
+}
+.break{
+    margin: 0 0 0 40px;
+    height: 50px;
+    background: url(../images/house_bg.png) 0 15px no-repeat;
+    padding: 0 0 0 30px;
+    font-family: "宋体","Microsoft YaHei";
+    font-size: 12px;
+    line-height: 50px;
+    color: #464646;
+}
+.break a{
+    font-family: "宋体","Microsoft YaHei";
+    font-size: 12px;
+    line-height: 50px;
+    color: #464646;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.rTit_date{
+    height: 50px;
+    margin: 0 40px 0 0;
+}
+.rTit_date span{
+    display: inline-block;
+    line-height: 50px;
+    font-size: 12px;
+    color: #464646;
+    margin: 0 0 0 40px; 
+}
