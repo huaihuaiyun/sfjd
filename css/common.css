@@ -14,7 +14,7 @@ a{
 input,img{
     outline: none;
 }
-input{
+input,button{
     border: none;
     outline: none;
 }
