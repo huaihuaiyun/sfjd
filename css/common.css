@@ -11,12 +11,21 @@ ul,li,ol{
 a{
     text-decoration: none;
 }
+i,em{
+    font-style: normal;
+}
 input,img{
     outline: none;
 }
 input,button{
     border: none;
     outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+button{
+    cursor: pointer;
 }
 .left{
     float: left;
@@ -31,7 +40,7 @@ input,button{
     width: 100%;
     height: 105px;
     background: url(../images/header_bg.png) no-repeat;
-    background-size: 100%; 
+    background-size: cover; 
 }
 .header_logo{
     width: 517px;
@@ -69,7 +78,7 @@ input,button{
     overflow: hidden;
 }
 .content::after{
-    content: '.';
+    content: ' ';
     clear: both;
 }
 .left_aside{
@@ -162,4 +171,31 @@ input,button{
     font-size: 12px;
     color: #464646;
     margin: 0 0 0 40px; 
+}
+.btn_normal{
+    width: 90px;
+    height: 30px;
+    background-color: #00a9ee;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+.btn_failer{
+    width: 90px;
+    height: 30px;
+    background-color: #e29816;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+.btn_on{
+    width: 90px;
+    height: 30px;
+    background-color: #16e26a;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
 }
