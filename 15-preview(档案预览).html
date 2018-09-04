@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>档案预览</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <img class="header_logo" src="images/inner_logo.png" alt="">
+        <div class="header_info right">
+            <div class="header_logout right">
+                <a href="javascript:;">退出系统</a>
+            </div>
+            <div class="header_goHome right">
+                <a href="javascript:;">系统首页</a>
+            </div>
+            <div class="header_user right">
+                欢迎您！admin
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left_aside left">
+            <ul class="aside_list">
+                <a href="">
+                    <li class="aside_l1">
+                        登记被鉴定人信息
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l2">
+                        审核资料
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l3">
+                        受理
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l4">
+                        登记
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l5">
+                        检验
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l6">
+                        起鉴定意见草稿
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l7">
+                        集体意见讨论
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l8">
+                        审核
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l9">
+                        出正式鉴定意见书
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l10">
+                        送达鉴定意见书
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l11">
+                        档案卷内备考
+                    </li>
+                </a>
+                <a href="">
+                    <li class="aside_l12">
+                        档案封面
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="right_main right">
+            <div class="right_tit">
+                <div class="break left">您当前的位置：<a href="">首页</a></div>
+                <div class="rTit_date right"></div>
+            </div>
+            <div class="sl_main">
+                <div class="preview_cont">
+                    <div class="preview_tit">
+                        <h1 class="sl_mTit_name left">司法鉴定档案预览</h1>
+                        <div class="prePages left">
+                            <span>本档案共60页</span>
+                            <span>当前第1页</span>
+                            <span>跳转至
+                                <input type="text"/>
+                                页</span>
+                        </div>
+                        <button class="btn_black right">返回</button>
+                    </div>
+                    <div class="preview_box">
+                        <a class="preview_pre" href=""></a>
+                        <a class="preview_next" href=""></a>
+                    </div>
+                </div>
+                <!-- <div class="sl_cont">
+                    <div class="sl_mTit">
+                        <h1 class="sl_mTit_name left">不予受理本案所需文件</h1>
+                        <button class="sl_mBtn right">打印本栏目所有页面</button>
+                    </div>
+                    <div class="sl_cont_box">
+                        <div class="sl_cont_box_tit">
+                            <span class="sl_cont_box_number left">1</span>
+                            <h2 class="sl_cont_box_name left">不予受理鉴定告知书</h2>
+                            <div class="sl_cont_box_cz right">
+                                <button class="btn_normal left">编辑文件</button>
+                                <button class="btn_normal left">编辑后保存</button>
+                                <button class="btn_on left">打印本项</button>
+                                <a class="open_cont left" href="javascript:;">展开本项</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sl_cont_box">
+                        <div class="sl_cont_box_tit">
+                            <span class="sl_cont_box_number left">2</span>
+                            <h2 class="sl_cont_box_name left">不予受理鉴定审批表</h2>
+                            <div class="sl_cont_box_cz right">
+                                <button class="btn_normal left">编辑文件</button>
+                                <button class="btn_normal left">编辑后保存</button>
+                                <button class="btn_on left">打印本项</button>
+                                <a class="open_cont close_cont left" href="javascript:;">收起本项</a>
+                            </div>
+                        </div>
+                        <div class="sl_cont_conto">
+                            <div class="sl_cont_cont"></div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/style.js"></script>
+<script src="js/size.js"></script>
+<script>
+    $(".rTit_date").writeDate();
+    setInterval(function(){
+        $(".rTit_date").writeDate();
+    },1000);
+</script>
+</html>

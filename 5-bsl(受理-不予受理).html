@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>受理-不予受理</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="header">
@@ -94,37 +94,54 @@
                 <div class="break left">您当前的位置：<a href="">首页</a></div>
                 <div class="rTit_date right"></div>
             </div>
-            <div class="index_main">
-                <div class="index_mTit">
-                    请选择您的操作
+            <div class="sl_main">
+                <div class="sl_mTop">
+                    <div class="sl_mTit">
+                        <h1 class="sl_mTit_name left">受理状态</h1>
+                        <button class="sl_mBtn right">查看本案审核资料</button>
+                    </div>
+                    <div class="sl_zt">
+                        <span>是否受理本次鉴定</span>
+                        <button class="btn_normal">受理本案</button>
+                        <button class="btn_failer">不予受理</button>
+                    </div>
                 </div>
-                <div class="index_mbox">
-                   <form id="basic_info_form" action="">
-                       <div class="basic_info_box1">
-                           <label for="name" class="basic_info_label left">姓名</label>
-                           <input class="basic_info_inp1 left" type="text" name="name">
-                           <label for="gender" class="basic_info_label left">性别</label>
-                           <input class="basic_info_inp1 left" type="text" name="gender">
-                           <label for="nation" class="basic_info_label left">民族</label>
-                           <input class="basic_info_inp1 left" type="text" name="nation">
-                       </div>
-                       <div class="basic_info_box2">
-                           <label for="name" class="basic_info_label left">出生</label>
-                           <input class="basic_info_inp1 left" type="text" name="name">
-                           <label for="gender" class="basic_info_label left">住址</label>
-                           <input class="basic_info_inp2 left" type="text" name="gender">
-                       </div>
-                       <div class="basic_info_box2">
-                           <label for="name" class="basic_info_label left">电话</label>
-                           <input class="basic_info_inp1 left" type="text" name="name">
-                           <label for="gender" class="basic_info_label left">身份证号</label>
-                           <input class="basic_info_inp2 left" type="text" name="gender">
-                       </div>
-                       <div class="basic_info_box3">
-                           <button class="basic_info_btn1" name="save">保存</button>
-                           <button class="basic_info_btn1" name="next">下一步</button>
-                       </div>
-                   </form>
+                <div class="sl_cont">
+                    <div class="sl_mTit">
+                        <h1 class="sl_mTit_name left">不予受理本案所需文件</h1>
+                        <button class="sl_mBtn right">打印本栏目所有页面</button>
+                    </div>
+                    <div class="sl_cont_box">
+                        <div class="sl_cont_box_tit">
+                            <span class="sl_cont_box_number left">1</span>
+                            <h2 class="sl_cont_box_name left">不予受理鉴定告知书</h2>
+                            <div class="sl_cont_box_cz right">
+                                <button class="btn_normal left">编辑文件</button>
+                                <button class="btn_normal left">编辑后保存</button>
+                                <button class="btn_on left">打印本项</button>
+                                <a class="open_cont left" href="javascript:;">展开本项</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sl_cont_box">
+                        <div class="sl_cont_box_tit">
+                            <span class="sl_cont_box_number left">2</span>
+                            <h2 class="sl_cont_box_name left">不予受理鉴定审批表</h2>
+                            <div class="sl_cont_box_cz right">
+                                <button class="btn_normal left">编辑文件</button>
+                                <button class="btn_normal left">编辑后保存</button>
+                                <button class="btn_on left">打印本项</button>
+                                <a class="open_cont close_cont left" href="javascript:;">收起本项</a>
+                            </div>
+                        </div>
+                        <div class="sl_cont_conto">
+                            <div class="sl_cont_cont"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_confirm">
+                    <button class="basic_info_btn1" name="save">保存</button>
+                    <button class="basic_info_btn1" name="next">送达回执</button>
                 </div>
             </div>
         </div>

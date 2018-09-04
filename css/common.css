@@ -136,8 +136,8 @@ button{
     background: url(../images/bg_icon14.png) 16px 17px no-repeat
 }
 .right_main{
-    height: 100%;
-    padding: 0 30px;
+    height: auto;
+    padding: 0 30px 30px 30px;
 }
 .right_tit{
     width: 100%;
@@ -198,4 +198,25 @@ button{
     text-align: center;
     line-height: 30px;
     color: #ffffff;
+}
+.btn_black{
+    width: 90px;
+    height: 30px;
+    background-color: #333333;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.info_confirm{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+.closeX{
+    width: 17px;
+    height: 17px;
+    background: url(../images/x.png) no-repeat;
+    margin: 16px 20px;
 }

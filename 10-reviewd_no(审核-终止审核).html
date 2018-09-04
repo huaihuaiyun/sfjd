@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>审核-不通过</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="header">
@@ -94,17 +94,53 @@
                 <div class="break left">您当前的位置：<a href="">首页</a></div>
                 <div class="rTit_date right"></div>
             </div>
-            <div class="index_main">
-                <div class="index_mTit">
-                    请选择您的操作
+            <div class="sl_main">
+                <div class="sl_mTop">
+                    <div class="sl_mTit">
+                        <h1 class="sl_mTit_name left">是否通过审核</h1>
+                    </div>
+                    <div class="sl_zt">
+                        <span>是否审核通过本次鉴定</span>
+                        <button class="btn_normal">审核通过</button>
+                        <button class="btn_failer">终止鉴定</button>
+                    </div>
                 </div>
-                <div class="index_mbox">
-                    <a href="">
-                        <img src="images/new_record.png" alt="" srcset="">
-                    </a>
-                    <a href="">
-                        <img src="images/check_record.png" alt="" srcset="">
-                    </a>
+                <div class="sl_cont">
+                    <div class="sl_mTit">
+                        <h1 class="sl_mTit_name left">终止鉴定本案所需文件</h1>
+                        <button class="sl_mBtn right">打印本栏目所有页面</button>
+                    </div>
+                    <div class="sl_cont_box">
+                            <div class="sl_cont_box_tit">
+                                <span class="sl_cont_box_number left">1</span>
+                                <h2 class="sl_cont_box_name left">终止鉴定告知书</h2>
+                                <div class="sl_cont_box_cz right">
+                                    <button class="btn_normal left">编辑文件</button>
+                                    <button class="btn_normal left">编辑后保存</button>
+                                    <button class="btn_on left">打印本项</button>
+                                    <a class="open_cont left" href="javascript:;">展开本项</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="sl_cont_box">
+                        <div class="sl_cont_box_tit">
+                            <span class="sl_cont_box_number left">2</span>
+                            <h2 class="sl_cont_box_name left">终止鉴定审批表</h2>
+                            <div class="sl_cont_box_cz right">
+                                <button class="btn_normal left">编辑文件</button>
+                                <button class="btn_normal left">编辑后保存</button>
+                                <button class="btn_on left">打印本项</button>
+                                <a class="open_cont close_cont left" href="javascript:;">收起本项</a>
+                            </div>
+                        </div>
+                        <div class="sl_cont_conto">
+                            <div class="sl_cont_cont"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_confirm">
+                    <button class="basic_info_btn1" name="save">保存</button>
+                    <button class="basic_info_btn1" name="next">送达回执</button>
                 </div>
             </div>
         </div>
