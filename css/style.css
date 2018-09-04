@@ -3,7 +3,7 @@
     width: 100%;
     height: 500px;
 }
-.index_mTit,.sl_mTit,.preview_tit{
+.index_mTit,.sl_mTit,.preview_tit,.query_mTit{
     width: 100%;
     height: 45px;
     padding: 0 20px;
@@ -196,7 +196,7 @@
     width: 100%;
     height: auto;
 }
-.sl_mTop,.sl_cont{
+.sl_mTop,.sl_cont,query_cont,.query_form{
     width: 100%;
     height: auto;
 }
@@ -354,4 +354,92 @@
     right: -75px;
     top: 50%;
     margin: -48px 0 0 0;
+}
+/*query*/
+.query_mTit_name{
+    padding: 0 0 0 25px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #ffffff; 
+    background: url(../images/fdj.png) 0 14px no-repeat;
+}
+.query_fBox{
+    width: 100%;
+    height: 185px;
+    border-top: 0;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+}
+.query_form_box1{
+    width: 720px;
+    height: 35px;
+    margin: 20px auto 0 auto;
+}
+.query_form_box2{
+    width: 870px;
+    height: 35px;
+    margin: 20px auto 0 auto;
+}
+.query_form_boxi1{
+    width: 240px;
+    height: 35px;
+}
+.query_form_boxi2{
+    width: 390px;
+    height: 35px;
+}
+.query_form_boxi1 label{
+    width: 75px;
+    margin: 0 10px 0 0;
+    line-height: 35px;
+    display: inline-block;
+    text-align: right;
+}
+.query_form_boxi2 label{
+    width: 140px;
+    margin: 0 10px 0 0;
+    line-height: 35px;
+    display: inline-block;
+    text-align: right;
+}
+.query_form_boxi2 span{
+    width: 50px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+.query_form_box_ul{
+    width: 155px;
+    height: 34px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.query_form_box_inp{
+    width: 155px;
+    height: 34px;
+    padding: 5px;
+    height: 24px;
+}
+.query_form_box_ul1{
+    width: 95px;
+    height: 34px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.query_form_box_inp1{
+    width: 95px;
+    height: 34px;
+    padding: 5px 3px;
+    height: 24px;
+}
+.query_form_box3{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.query_form_box3 button{
+    display: inline-block;
+    margin: 0 20px;
+}
+.query_form{
+    margin: 0 0 10px 0;
 }
