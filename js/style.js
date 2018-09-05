@@ -25,3 +25,6 @@
         $this.html(dateString);
     }
 })(jQuery);
+$(function(){
+    
+})
