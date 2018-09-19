@@ -1,0 +1,107 @@
+.login_header{
+    width: 100%;
+    height: 177px;
+    text-align: center;
+}
+.login_header img{
+    width: 1000px;
+    height: 177px;
+}
+.login_main{
+    width: 100%;
+    height: 562px;
+    background-color: #30bcff;
+}
+.login_main_inner{
+    width: 1000px;
+    height: 562px;
+    margin: 0 auto;
+}
+.login_mPic{
+    width: 438px;
+    height: 562px;
+}
+.login_box{
+    width: 320px;
+    height: 400px;
+    margin: 81px 0;
+    border-top: 3px solid #e54e3b;
+    border-bottom: 1px solid #0477af;
+    background-color: #f6f6f6;
+    padding: 0 30px;
+}
+.login_box h1{
+    width: 320px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #333333;
+}
+.login_inp_box{
+    width: 276px;
+    height: 42px;
+    border: 1px solid #d0d0d0;
+    margin: 0 0 30px 0;
+    background-color: #ffffff;
+    padding: 0 0 0 42px;
+    position: relative;
+}
+.login_username{
+    background: url(../images/login_un_bg.png) left no-repeat;
+}
+.login_password{
+    background: url(../images/login_pw_bg.png) left no-repeat;
+}
+.login_inp_box label{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    line-height: 42px;
+    color: #c1c1c1;
+}
+.login_inp_box input{
+    width: 270px;
+    height: 24px;
+    padding: 9px 3px;
+}
+.login_remember_nameb{
+    width: 320px;
+    height: 20px;
+    margin: 0 0 30px 0;
+}
+.login_remember_nameb input{
+    width: 20px;
+    height: 20px;
+}
+.login_remember_nameb label{
+    line-height: 20px;
+    color: #333333;
+    margin: 0 0 0 10px;
+}
+.login_submit{
+    width: 320px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2em;
+    background-color: #e54e3b;
+    cursor: pointer;
+}
+.login_footer{
+    width: 1000px;
+    height: 195px;
+    margin: 30px auto 0 auto;
+}
+.login_footer_tit{
+    width: 980px;
+    height: 114px;
+    margin: 0 10px;
+}
+.login_footer_info{
+    width: 980px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
