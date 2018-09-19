@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/datePicker.css">
 </head>
 <body>
     <div class="header">
@@ -120,7 +121,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="query_form_box2">
+                        <div class="query_form_box1">
                             <div class="query_form_boxi1 left">
                                 <label class="left">委托单位</label>
                                 <div class="query_form_box_ul left">
@@ -133,14 +134,18 @@
                                     <input class="query_form_box_inp" type="text" name="number" >
                                 </div>
                             </div>
+                        </div>
+                        <div class="query_form_box1">
                             <div class="query_form_boxi2 left">
-                                <label class="left">鉴定文成日期范围</label>
+                                <label class="left">鉴定完成日期范围</label>
                                 <div class="query_form_box_ul1 left">
-                                    <input class="query_form_box_inp" type="text" name="number" >
+                                    <input id="query_date_1" class="query_form_box_inp_date" type="text" name="number" >
+                                    <img src="images/calendar.png" alt="" class="icon data-icon">
                                 </div>
                                 <span class="left">——</span>
                                 <div class="query_form_box_ul1 left">
-                                    <input class="query_form_box_inp" type="text" name="number" >
+                                    <input id="query_date_2" class="query_form_box_inp_date" type="text" name="number" >
+                                    <img src="images/calendar.png" alt="" class="icon data-icon">
                                 </div>
                             </div>
                         </div>
@@ -152,20 +157,90 @@
                 </div>
                 <div class="query_cont">
                     <div class="sl_mTit">
-                        <h1 class="left">司法鉴定档案查询</h1>
+                        <h1 class="left">查询结果</h1>
+                    </div>
+                    <div class="query_result">
+                        <div class="query_result_table">
+                            <div class="query_result_thead">
+                                <span class="qrt_1 left">档案编号</span>
+                                <span class="qrt_1 left">鉴定类别</span>
+                                <span class="qrt_2 left">鉴定人</span>
+                                <span class="qrt_1 left">被鉴定人</span>
+                                <span class="qrt_3 left">委托单位</span>
+                                <span class="qrt_2 left">鉴定完成日期</span>
+                            </div>
+                            <div class="query_result_tbody">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span class="qrt_1 left">B016</span>
+                                            <span class="qrt_1 left">法医临床</span>
+                                            <span class="qrt_2 left">张某某/王某某</span>
+                                            <span class="qrt_1 left">李某某</span>
+                                            <span class="qrt_3 left">民生人寿保险股份有限公司保定中心分公司</span>
+                                            <span class="qrt_2 left">2018-08-08</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="qrt_1 left">B016</span>
+                                            <span class="qrt_1 left">法医临床</span>
+                                            <span class="qrt_2 left">张某某/王某某</span>
+                                            <span class="qrt_1 left">李某某</span>
+                                            <span class="qrt_3 left">民生人寿保险股份有限公司保定中心分公司</span>
+                                            <span class="qrt_2 left">2018-08-08</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="qrt_1 left">B016</span>
+                                            <span class="qrt_1 left">法医临床</span>
+                                            <span class="qrt_2 left">张某某/王某某</span>
+                                            <span class="qrt_1 left">李某某</span>
+                                            <span class="qrt_3 left">民生人寿保险股份有限公司保定中心分公司</span>
+                                            <span class="qrt_2 left">2018-08-08</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="qrt_1 left">B016</span>
+                                            <span class="qrt_1 left">法医临床</span>
+                                            <span class="qrt_2 left">张某某/王某某</span>
+                                            <span class="qrt_1 left">李某某</span>
+                                            <span class="qrt_3 left">民生人寿保险股份有限公司保定中心分公司</span>
+                                            <span class="qrt_2 left">2018-08-08</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="qrt_1 left">B016</span>
+                                            <span class="qrt_1 left">法医临床</span>
+                                            <span class="qrt_2 left">张某某/王某某</span>
+                                            <span class="qrt_1 left">李某某</span>
+                                            <span class="qrt_3 left">民生人寿保险股份有限公司保定中心分公司</span>
+                                            <span class="qrt_2 left">2018-08-08</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-1.4.2.min.js"></script>
 <script src="js/style.js"></script>
 <script src="js/size.js"></script>
+<script src="js/jquery.datePicker-min.js"></script>
 <script>
     $(".rTit_date").writeDate();
     setInterval(function(){
         $(".rTit_date").writeDate();
     },1000);
+    $("#query_date_1,#query_date_2").datePicker({
+        clickInput:true
+    });
 </script>
 </html>
