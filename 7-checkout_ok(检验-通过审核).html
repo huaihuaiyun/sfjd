@@ -120,11 +120,82 @@
                                 <button class="btn_normal left">编辑文件</button>
                                 <button class="btn_normal left">编辑后保存</button>
                                 <button class="btn_on left">打印本项</button>
-                                <a class="open_cont close_cont left" href="javascript:;">收起本项</a>
                             </div>
                         </div>
-                        <div class="sl_cont_conto">
-                            <div class="sl_cont_cont"></div>
+                        <div class="sl_cont_conto sl_cont_contos">
+                            <div class="sl_cont_cont">
+                                <form action="">
+                                    <div class="inner_form">
+                                        <div class="form_head">
+                                            <h1 class="form_n_1">定州市司法医学鉴定中心</h1>
+                                            <h2 class="form_n_2">鉴定过程实时记录</h2>
+                                            <h3 class="form_n_3">定州司鉴[<input type="text" style="width:50px;">]鉴字第<input type="text"style="width:30px;">号</h3>
+                                        </div>
+                                        <table class="form_table_1" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="112">被鉴定人姓名</td>
+                                                <td><input type="text" style="width:100px;"></td>
+                                                <td>性别</td>
+                                                <td><input type="text" style="width:30px;"></td>
+                                                <td>年龄</td>
+                                                <td><input type="text" style="width:30px;"></td>
+                                                <td>住址</td>
+                                                <td><input type="text" style="width:100px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>检验时间</td>
+                                                <td colspan="3">
+                                                    <input type="text" style="width:100%;">
+                                                </td>
+                                                <td colspan="3">检验地点</td>
+                                                <td><input type="text" style="width:100%;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>记录人</td>
+                                                <td colspan="3">
+                                                    <input type="text" style="width:100%;">
+                                                </td>
+                                                <td colspan="3">照相人</td>
+                                                <td><input type="text" style="width:100%;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>在场人员</td>
+                                                <td colspan="3">
+                                                    <input type="text" style="width:100%;">
+                                                </td>
+                                                <td colspan="3">与被鉴定人关系</td>
+                                                <td><input type="text" style="width:100%;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>检验方法</td>
+                                                <td colspan="7">
+                                                    法医临床检验规范   SF/Z JD0103003-2011
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="8">
+                                                    <p style="line-height:30px;font-size:14px;text-align:left;margin:10px;">检验所见：</p>
+                                                    <textarea style="resize:none;line-height:30px;font-size:14px;text-align:left;padding:10px;width:100%;box-sizing: border-box;height:150px;">
+
+                                                    </textarea>
+                                                    <p style="line-height:30px;font-size:14px;text-align:right;margin:10px;">
+                                                        鉴定人签字：<input type="text" style="width:100px;">
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>备注</td>
+                                                <td colspan="7">
+                                                    <p style="line-height:30px;font-size:14px;text-align:left;margin:10px;">建议进行相关检查：</p>
+                                                    <textarea style="resize:none;font-size:14px;text-align:left;padding:10px;width:100%;box-sizing: border-box;">
+
+                                                    </textarea>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <div class="info_box">
@@ -209,5 +280,16 @@
     setInterval(function(){
         $(".rTit_date").writeDate();
     },1000);
+    $(function(){
+        $(".open_cont").on("click",function(){
+            var this_idName = "#"+$(this).attr("id")+"c";
+            $(".open_cont").removeClass("close_cont");
+            $(".open_cont").text("展开本项");
+            $(this).addClass("close_cont");
+            $(this).text("收起本项");
+            $(".sl_cont_conto").removeClass("sl_cont_contos");
+            $(this_idName).addClass("sl_cont_contos");
+        });
+    });
 </script>
 </html>
