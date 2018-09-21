@@ -196,7 +196,7 @@
     width: 100%;
     height: auto;
 }
-.sl_mTop,.sl_cont,query_cont,.query_form{
+.sl_mTop,.sl_cont,.query_cont,.query_form{
     width: 100%;
     height: auto;
 }
@@ -387,8 +387,13 @@
 }
 .form_table_1{
     width: 100%;
+    border: 1px solid #333333;  
+}
+.form_table_2{
+    width: 300px;
     border: 1px solid #333333;
-    
+    float: right;  
+    margin: 0 0 30px 0;
 }
 .sfcxjd{
     width: 20px;
