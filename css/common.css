@@ -110,41 +110,80 @@ button{
     line-height: 50px;
     font-size: 16px;
 }
+.aside_list li.aside_ls{
+    color: #00a9ee;
+}
 .aside_l1{
-    background: url(../images/bg_icon3.png) 14px 15px no-repeat
+    background: url(../images/bg_icon3.png) 14px 15px no-repeat;
+}
+.aside_l1.aside_ls{
+    background: url(../images/bg_icon3s.png) 14px 15px no-repeat;
 }
 .aside_l2{
-    background: url(../images/bg_icon4.png) 14px 16px no-repeat
+    background: url(../images/bg_icon4.png) 14px 16px no-repeat;
+}
+.aside_l2.aside_ls{
+    background: url(../images/bg_icon4s.png) 14px 16px no-repeat;
 }
 .aside_l3{
-    background: url(../images/bg_icon5.png) 12px 12px no-repeat
+    background: url(../images/bg_icon5.png) 12px 12px no-repeat;
+}
+.aside_l3.aside_ls{
+    background: url(../images/bg_icon5s.png) 12px 12px no-repeat;
 }
 .aside_l4{
-    background: url(../images/bg_icon6.png) 17px 15px no-repeat
+    background: url(../images/bg_icon6.png) 17px 15px no-repeat;
+}
+.aside_l4.aside_ls{
+    background: url(../images/bg_icon6s.png) 17px 15px no-repeat;
 }
 .aside_l5{
-    background: url(../images/bg_icon7.png) 16px 17px no-repeat
+    background: url(../images/bg_icon7.png) 16px 17px no-repeat;
+}
+.aside_l5.aside_ls{
+    background: url(../images/bg_icon7s.png) 16px 17px no-repeat;
 }
 .aside_l6{
-    background: url(../images/bg_icon8.png) 15px 15px no-repeat
+    background: url(../images/bg_icon8.png) 15px 15px no-repeat;
+}
+.aside_l6.aside_ls{
+    background: url(../images/bg_icon8s.png) 15px 15px no-repeat;
 }
 .aside_l7{
-    background: url(../images/bg_icon9.png) 15px 15px no-repeat
+    background: url(../images/bg_icon9.png) 15px 15px no-repeat;
+}
+.aside_l7.aside_ls{
+    background: url(../images/bg_icon9s.png) 15px 15px no-repeat;
 }
 .aside_l8{
-    background: url(../images/bg_icon10.png) 15px 15px no-repeat
+    background: url(../images/bg_icon10.png) 15px 15px no-repeat;
+}
+.aside_l8.aside_ls{
+    background: url(../images/bg_icon10s.png) 15px 15px no-repeat;
 }
 .aside_l9{
-    background: url(../images/bg_icon11.png) 16px 16px no-repeat
+    background: url(../images/bg_icon11.png) 16px 16px no-repeat;
+}
+.aside_l9.aside_ls{
+    background: url(../images/bg_icon11s.png) 16px 16px no-repeat;
 }
 .aside_l10{
-    background: url(../images/bg_icon12.png) 14px 15px no-repeat
+    background: url(../images/bg_icon12.png) 14px 15px no-repeat;
+}
+.aside_l10.aside_ls{
+    background: url(../images/bg_icon12s.png) 14px 15px no-repeat;
 }
 .aside_l11{
-    background: url(../images/bg_icon13.png) 16px 18px no-repeat
+    background: url(../images/bg_icon13.png) 16px 18px no-repeat;
+}
+.aside_l11.aside_ls{
+    background: url(../images/bg_icon13s.png) 16px 18px no-repeat;
 }
 .aside_l12{
-    background: url(../images/bg_icon14.png) 16px 17px no-repeat
+    background: url(../images/bg_icon14.png) 16px 17px no-repeat;
+}
+.aside_l12.aside_ls{
+    background: url(../images/bg_icon14s.png) 16px 17px no-repeat;
 }
 .right_main{
     height: auto;
